@@ -17,6 +17,8 @@
 		7BC47F0F196143C800EC945A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47F0E196143C800EC945A /* XCTest.framework */; };
 		7BC47F10196143C800EC945A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF5196143C800EC945A /* Foundation.framework */; };
 		7BC47F11196143C800EC945A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF9196143C800EC945A /* UIKit.framework */; };
+		7BC47F251961457300EC945A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47F241961457300EC945A /* opencv2.framework */; };
+		7BC47F28196145B300EC945A /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC47F27196145B300EC945A /* lena.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		7BC47F07196143C800EC945A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7BC47F0D196143C800EC945A /* OpenCVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC47F0E196143C800EC945A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7BC47F241961457300EC945A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		7BC47F27196145B300EC945A /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			files = (
 				7BC47EF8196143C800EC945A /* CoreGraphics.framework in Frameworks */,
 				7BC47EFA196143C800EC945A /* UIKit.framework in Frameworks */,
+				7BC47F251961457300EC945A /* opencv2.framework in Frameworks */,
 				7BC47EF6196143C800EC945A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +95,7 @@
 		7BC47EF4196143C800EC945A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BC47F241961457300EC945A /* opencv2.framework */,
 				7BC47EF5196143C800EC945A /* Foundation.framework */,
 				7BC47EF7196143C800EC945A /* CoreGraphics.framework */,
 				7BC47EF9196143C800EC945A /* UIKit.framework */,
@@ -101,6 +107,7 @@
 		7BC47EFB196143C800EC945A /* OpenCVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7BC47F26196145B300EC945A /* pic */,
 				7BC47F04196143C800EC945A /* AppDelegate.h */,
 				7BC47F05196143C800EC945A /* AppDelegate.m */,
 				7BC47F07196143C800EC945A /* Images.xcassets */,
@@ -118,6 +125,14 @@
 				7BC47F03196143C800EC945A /* OpenCVDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC47F26196145B300EC945A /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				7BC47F27196145B300EC945A /* lena.jpg */,
+			);
+			path = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
+				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC47F08196143C800EC945A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +339,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVDemo/OpenCVDemo-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVDemo/OpenCVDemo-Info.plist";
@@ -336,6 +356,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVDemo/OpenCVDemo-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVDemo/OpenCVDemo-Info.plist";
@@ -403,6 +427,7 @@
 				7BC47F20196143C800EC945A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC47F21196143C800EC945A /* Build configuration list for PBXNativeTarget "OpenCVDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +436,7 @@
 				7BC47F23196143C800EC945A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
