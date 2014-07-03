@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -14,9 +15,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [self startUI];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)startUI {
+    MainViewController *controller = [[MainViewController alloc] init];
+    controller.noBtnBack = YES;
+    _navi = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = _navi;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

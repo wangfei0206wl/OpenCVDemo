@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC2A2AA1964FB4900B93CC2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */; };
+		7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2AC1964FB8F00B93CC2 /* MainViewController.m */; };
+		7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC2A2AF1964FCC900B93CC2 /* btn_cancel_normal.png */; };
+		7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC2A2B01964FCC900B93CC2 /* btn_cancel_pressed.png */; };
+		7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2B81965062B00B93CC2 /* CoreMenuViewController.m */; };
+		7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2BB1965086800B93CC2 /* ImageProViewController.m */; };
+		7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2BE196508BF00B93CC2 /* ThreeDimsViewController.m */; };
+		7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2C11965090800B93CC2 /* HighGUIViewController.m */; };
+		7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2C41965244300B93CC2 /* BaseMatViewController.mm */; };
+		7BC2A2C8196525B100B93CC2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2C7196525B100B93CC2 /* WebViewController.m */; };
+		7BC2A2CB196533A500B93CC2 /* OpenCVUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2CA196533A500B93CC2 /* OpenCVUtility.mm */; };
+		7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC2A2CC196547BA00B93CC2 /* common_bacArrow@2x.png */; };
+		7BC2A2D019654A6C00B93CC2 /* ScanningViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2CF19654A6C00B93CC2 /* ScanningViewController.mm */; };
 		7BC47EF6196143C800EC945A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF5196143C800EC945A /* Foundation.framework */; };
 		7BC47EF8196143C800EC945A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF7196143C800EC945A /* CoreGraphics.framework */; };
 		7BC47EFA196143C800EC945A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF9196143C800EC945A /* UIKit.framework */; };
@@ -32,6 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BC2A2A71964FB4900B93CC2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7BC2A2A91964FB4900B93CC2 /* PublicDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefines.h; sourceTree = "<group>"; };
+		7BC2A2AB1964FB8F00B93CC2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7BC2A2AC1964FB8F00B93CC2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7BC2A2AF1964FCC900B93CC2 /* btn_cancel_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel_normal.png; sourceTree = "<group>"; };
+		7BC2A2B01964FCC900B93CC2 /* btn_cancel_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_cancel_pressed.png; sourceTree = "<group>"; };
+		7BC2A2B71965062B00B93CC2 /* CoreMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMenuViewController.h; sourceTree = "<group>"; };
+		7BC2A2B81965062B00B93CC2 /* CoreMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMenuViewController.m; sourceTree = "<group>"; };
+		7BC2A2BA1965086800B93CC2 /* ImageProViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProViewController.h; sourceTree = "<group>"; };
+		7BC2A2BB1965086800B93CC2 /* ImageProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProViewController.m; sourceTree = "<group>"; };
+		7BC2A2BD196508BF00B93CC2 /* ThreeDimsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDimsViewController.h; sourceTree = "<group>"; };
+		7BC2A2BE196508BF00B93CC2 /* ThreeDimsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDimsViewController.m; sourceTree = "<group>"; };
+		7BC2A2C01965090800B93CC2 /* HighGUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighGUIViewController.h; sourceTree = "<group>"; };
+		7BC2A2C11965090800B93CC2 /* HighGUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighGUIViewController.m; sourceTree = "<group>"; };
+		7BC2A2C31965244300B93CC2 /* BaseMatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMatViewController.h; sourceTree = "<group>"; };
+		7BC2A2C41965244300B93CC2 /* BaseMatViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseMatViewController.mm; sourceTree = "<group>"; };
+		7BC2A2C6196525B100B93CC2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		7BC2A2C7196525B100B93CC2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		7BC2A2C9196533A500B93CC2 /* OpenCVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtility.h; sourceTree = "<group>"; };
+		7BC2A2CA196533A500B93CC2 /* OpenCVUtility.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtility.mm; sourceTree = "<group>"; };
+		7BC2A2CC196547BA00B93CC2 /* common_bacArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_bacArrow@2x.png"; sourceTree = "<group>"; };
+		7BC2A2CE19654A6C00B93CC2 /* ScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningViewController.h; sourceTree = "<group>"; };
+		7BC2A2CF19654A6C00B93CC2 /* ScanningViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanningViewController.mm; sourceTree = "<group>"; };
 		7BC47EF2196143C800EC945A /* OpenCVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC47EF5196143C800EC945A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BC47EF7196143C800EC945A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +111,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BC2A2A61964FB4900B93CC2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2A71964FB4900B93CC2 /* BaseViewController.h */,
+				7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */,
+				7BC2A2A91964FB4900B93CC2 /* PublicDefines.h */,
+				7BC2A2C6196525B100B93CC2 /* WebViewController.h */,
+				7BC2A2C7196525B100B93CC2 /* WebViewController.m */,
+				7BC2A2C9196533A500B93CC2 /* OpenCVUtility.h */,
+				7BC2A2CA196533A500B93CC2 /* OpenCVUtility.mm */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7BC2A2AE1964FCC900B93CC2 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2CC196547BA00B93CC2 /* common_bacArrow@2x.png */,
+				7BC2A2AF1964FCC900B93CC2 /* btn_cancel_normal.png */,
+				7BC2A2B01964FCC900B93CC2 /* btn_cancel_pressed.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		7BC2A2B31965060800B93CC2 /* corefunction */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2B71965062B00B93CC2 /* CoreMenuViewController.h */,
+				7BC2A2B81965062B00B93CC2 /* CoreMenuViewController.m */,
+				7BC2A2C31965244300B93CC2 /* BaseMatViewController.h */,
+				7BC2A2C41965244300B93CC2 /* BaseMatViewController.mm */,
+				7BC2A2CE19654A6C00B93CC2 /* ScanningViewController.h */,
+				7BC2A2CF19654A6C00B93CC2 /* ScanningViewController.mm */,
+			);
+			path = corefunction;
+			sourceTree = "<group>";
+		};
+		7BC2A2B41965060800B93CC2 /* highgui */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2C01965090800B93CC2 /* HighGUIViewController.h */,
+				7BC2A2C11965090800B93CC2 /* HighGUIViewController.m */,
+			);
+			path = highgui;
+			sourceTree = "<group>";
+		};
+		7BC2A2B51965060800B93CC2 /* imagepro */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2BA1965086800B93CC2 /* ImageProViewController.h */,
+				7BC2A2BB1965086800B93CC2 /* ImageProViewController.m */,
+			);
+			path = imagepro;
+			sourceTree = "<group>";
+		};
+		7BC2A2B61965060800B93CC2 /* threedims */ = {
+			isa = PBXGroup;
+			children = (
+				7BC2A2BD196508BF00B93CC2 /* ThreeDimsViewController.h */,
+				7BC2A2BE196508BF00B93CC2 /* ThreeDimsViewController.m */,
+			);
+			path = threedims;
+			sourceTree = "<group>";
+		};
 		7BC47EE9196143C700EC945A = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +208,17 @@
 		7BC47EFB196143C800EC945A /* OpenCVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7BC2A2B31965060800B93CC2 /* corefunction */,
+				7BC2A2B41965060800B93CC2 /* highgui */,
+				7BC2A2B51965060800B93CC2 /* imagepro */,
+				7BC2A2B61965060800B93CC2 /* threedims */,
+				7BC2A2AE1964FCC900B93CC2 /* icon */,
+				7BC2A2A61964FB4900B93CC2 /* Common */,
 				7BC47F26196145B300EC945A /* pic */,
 				7BC47F04196143C800EC945A /* AppDelegate.h */,
 				7BC47F05196143C800EC945A /* AppDelegate.m */,
+				7BC2A2AB1964FB8F00B93CC2 /* MainViewController.h */,
+				7BC2A2AC1964FB8F00B93CC2 /* MainViewController.m */,
 				7BC47F07196143C800EC945A /* Images.xcassets */,
 				7BC47EFC196143C800EC945A /* Supporting Files */,
 			);
@@ -211,7 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
+				7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */,
+				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
+				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
 				7BC47F08196143C800EC945A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,7 +343,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC47F06196143C800EC945A /* AppDelegate.m in Sources */,
+				7BC2A2C8196525B100B93CC2 /* WebViewController.m in Sources */,
+				7BC2A2AA1964FB4900B93CC2 /* BaseViewController.m in Sources */,
+				7BC2A2D019654A6C00B93CC2 /* ScanningViewController.mm in Sources */,
 				7BC47F02196143C800EC945A /* main.m in Sources */,
+				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
+				7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */,
+				7BC2A2CB196533A500B93CC2 /* OpenCVUtility.mm in Sources */,
+				7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */,
+				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
+				7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */,
+				7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B7519565-F307-491F-A133-81899997D7B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenCVDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D36DCD5-CFAD-46E3-853E-C923C2C60156</key>
+		<string>https://github.com/wangfei0206wl/OpenCVDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenCVDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D36DCD5-CFAD-46E3-853E-C923C2C60156</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wangfei0206wl/OpenCVDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D36DCD5-CFAD-46E3-853E-C923C2C60156</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D36DCD5-CFAD-46E3-853E-C923C2C60156</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenCVDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
