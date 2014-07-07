@@ -10,6 +10,9 @@
 #import "PublicDefines.h"
 #import "BaseMatViewController.h"
 #import "ScanningViewController.h"
+#import "MatMaskViewController.h"
+#import "AddWeightViewController.h"
+#import "ContrastViewController.h"
 
 @interface CoreMenuViewController () {
     NSArray *_arrMenus;
@@ -75,10 +78,22 @@
         }
             break;
         case 2:
+        {
+            MatMaskViewController *controller = [[MatMaskViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 3:
+        {
+            AddWeightViewController *controller = [[AddWeightViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 4:
+        {
+            ContrastViewController *controller = [[ContrastViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 5:
             break;

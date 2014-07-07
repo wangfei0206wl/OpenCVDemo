@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC291CD1966B1D000813B1C /* MatMaskViewController.mm */; };
 		7BC2A2AA1964FB4900B93CC2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */; };
 		7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2AC1964FB8F00B93CC2 /* MainViewController.m */; };
 		7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC2A2AF1964FCC900B93CC2 /* btn_cancel_normal.png */; };
@@ -32,6 +33,9 @@
 		7BC47F11196143C800EC945A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47EF9196143C800EC945A /* UIKit.framework */; };
 		7BC47F251961457300EC945A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC47F241961457300EC945A /* opencv2.framework */; };
 		7BC47F28196145B300EC945A /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC47F27196145B300EC945A /* lena.jpg */; };
+		7BD8F96A196A81A600EC3385 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD8F969196A81A600EC3385 /* test.png */; };
+		7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */; };
+		7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BC291CC1966B1D000813B1C /* MatMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatMaskViewController.h; sourceTree = "<group>"; };
+		7BC291CD1966B1D000813B1C /* MatMaskViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MatMaskViewController.mm; sourceTree = "<group>"; };
 		7BC2A2A71964FB4900B93CC2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		7BC2A2A91964FB4900B93CC2 /* PublicDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefines.h; sourceTree = "<group>"; };
@@ -84,6 +90,11 @@
 		7BC47F0E196143C800EC945A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7BC47F241961457300EC945A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		7BC47F27196145B300EC945A /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
+		7BD8F969196A81A600EC3385 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		7BD8F96B196A81EA00EC3385 /* AddWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWeightViewController.h; sourceTree = "<group>"; };
+		7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddWeightViewController.mm; sourceTree = "<group>"; };
+		7BD8F96E196A8EB300EC3385 /* ContrastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContrastViewController.h; sourceTree = "<group>"; };
+		7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContrastViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +155,12 @@
 				7BC2A2C41965244300B93CC2 /* BaseMatViewController.mm */,
 				7BC2A2CE19654A6C00B93CC2 /* ScanningViewController.h */,
 				7BC2A2CF19654A6C00B93CC2 /* ScanningViewController.mm */,
+				7BC291CC1966B1D000813B1C /* MatMaskViewController.h */,
+				7BC291CD1966B1D000813B1C /* MatMaskViewController.mm */,
+				7BD8F96B196A81EA00EC3385 /* AddWeightViewController.h */,
+				7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */,
+				7BD8F96E196A8EB300EC3385 /* ContrastViewController.h */,
+				7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */,
 			);
 			path = corefunction;
 			sourceTree = "<group>";
@@ -240,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				7BC47F27196145B300EC945A /* lena.jpg */,
+				7BD8F969196A81A600EC3385 /* test.png */,
 			);
 			path = pic;
 			sourceTree = "<group>";
@@ -321,6 +339,7 @@
 			files = (
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
 				7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */,
+				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
@@ -352,7 +371,10 @@
 				7BC2A2CB196533A500B93CC2 /* OpenCVUtility.mm in Sources */,
 				7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */,
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
+				7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */,
 				7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */,
+				7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */,
+				7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */,
 				7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
