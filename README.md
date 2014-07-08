@@ -1,4 +1,4 @@
 OpenCVDemo
 ==========
 
-opencv framework demo app
+ios opencv framework demo app
