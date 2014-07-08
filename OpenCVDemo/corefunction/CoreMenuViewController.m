@@ -13,6 +13,9 @@
 #import "MatMaskViewController.h"
 #import "AddWeightViewController.h"
 #import "ContrastViewController.h"
+#import "BaseDrawViewController.h"
+#import "RNGViewController.h"
+#import "DFTViewController.h"
 
 @interface CoreMenuViewController () {
     NSArray *_arrMenus;
@@ -96,10 +99,22 @@
         }
             break;
         case 5:
+        {
+            BaseDrawViewController *controller = [[BaseDrawViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 6:
+        {
+            RNGViewController *controller = [[RNGViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 7:
+        {
+            DFTViewController *controller = [[DFTViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         default:
             break;
