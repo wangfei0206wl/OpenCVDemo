@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC04AAA196E3FFE0021AD2F /* ImgBlurViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC04AA9196E3FFE0021AD2F /* ImgBlurViewController.mm */; };
+		7BC04AAC196E70040021AD2F /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC04AAB196E70040021AD2F /* cat.jpg */; };
+		7BC04AAF196E705F0021AD2F /* ErosionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC04AAE196E705F0021AD2F /* ErosionViewController.mm */; };
 		7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC291CD1966B1D000813B1C /* MatMaskViewController.mm */; };
 		7BC2A2AA1964FB4900B93CC2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2A81964FB4900B93CC2 /* BaseViewController.m */; };
 		7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2A2AC1964FB8F00B93CC2 /* MainViewController.m */; };
@@ -53,6 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BC04AA8196E3FFE0021AD2F /* ImgBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgBlurViewController.h; sourceTree = "<group>"; };
+		7BC04AA9196E3FFE0021AD2F /* ImgBlurViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImgBlurViewController.mm; sourceTree = "<group>"; };
+		7BC04AAB196E70040021AD2F /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		7BC04AAD196E705F0021AD2F /* ErosionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErosionViewController.h; sourceTree = "<group>"; };
+		7BC04AAE196E705F0021AD2F /* ErosionViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ErosionViewController.mm; sourceTree = "<group>"; };
 		7BC291CC1966B1D000813B1C /* MatMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatMaskViewController.h; sourceTree = "<group>"; };
 		7BC291CD1966B1D000813B1C /* MatMaskViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MatMaskViewController.mm; sourceTree = "<group>"; };
 		7BC2A2A71964FB4900B93CC2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -196,6 +204,10 @@
 			children = (
 				7BC2A2BA1965086800B93CC2 /* ImageProViewController.h */,
 				7BC2A2BB1965086800B93CC2 /* ImageProViewController.m */,
+				7BC04AA8196E3FFE0021AD2F /* ImgBlurViewController.h */,
+				7BC04AA9196E3FFE0021AD2F /* ImgBlurViewController.mm */,
+				7BC04AAD196E705F0021AD2F /* ErosionViewController.h */,
+				7BC04AAE196E705F0021AD2F /* ErosionViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -273,6 +285,7 @@
 		7BC47F26196145B300EC945A /* pic */ = {
 			isa = PBXGroup;
 			children = (
+				7BC04AAB196E70040021AD2F /* cat.jpg */,
 				7BC516B9196BD87800CC3F00 /* result_normal.jpg */,
 				7BC47F27196145B300EC945A /* lena.jpg */,
 				7BD8F969196A81A600EC3385 /* test.png */,
@@ -358,6 +371,7 @@
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
 				7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */,
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
+				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
 				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
@@ -395,6 +409,8 @@
 				7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */,
 				7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */,
 				7BC516B8196BCC6500CC3F00 /* RNGViewController.mm in Sources */,
+				7BC04AAA196E3FFE0021AD2F /* ImgBlurViewController.mm in Sources */,
+				7BC04AAF196E705F0021AD2F /* ErosionViewController.mm in Sources */,
 				7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */,
 				7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */,
 				7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */,
