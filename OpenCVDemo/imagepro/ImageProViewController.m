@@ -10,6 +10,7 @@
 #import "PublicDefines.h"
 #import "ImgBlurViewController.h"
 #import "ErosionViewController.h"
+#import "MorphoViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -75,6 +76,10 @@
         }
             break;
         case 2:
+        {
+            MorphoViewController *controller = [[MorphoViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 3:
              break;
