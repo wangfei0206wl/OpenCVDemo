@@ -11,6 +11,8 @@
 #import "ImgBlurViewController.h"
 #import "ErosionViewController.h"
 #import "MorphoViewController.h"
+#import "PyramidViewController.h"
+#import "ThresholdViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -82,8 +84,16 @@
         }
             break;
         case 3:
+        {
+            PyramidViewController *controller = [[PyramidViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
              break;
         case 4:
+        {
+            ThresholdViewController *controller = [[ThresholdViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 5:
             break;
