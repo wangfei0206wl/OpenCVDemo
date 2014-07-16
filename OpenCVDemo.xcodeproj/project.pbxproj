@@ -41,13 +41,20 @@
 		7BC516B8196BCC6500CC3F00 /* RNGViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC516B7196BCC6500CC3F00 /* RNGViewController.mm */; };
 		7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC516B9196BD87800CC3F00 /* result_normal.jpg */; };
 		7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC516BC196BD8A500CC3F00 /* DFTViewController.mm */; };
+		7BD62CD819761AC9000EA5B9 /* SobelViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD62CD719761AC9000EA5B9 /* SobelViewController.mm */; };
+		7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BD62CD919762193000EA5B9 /* cow.jpg */; };
+		7BD62CDD197621A2000EA5B9 /* LaplacianViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD62CDC197621A2000EA5B9 /* LaplacianViewController.mm */; };
 		7BD8F96A196A81A600EC3385 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD8F969196A81A600EC3385 /* test.png */; };
 		7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */; };
 		7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */; };
 		7BD8F974196AAD0800EC3385 /* BaseDrawViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F972196A9F7600EC3385 /* BaseDrawViewController.mm */; };
+		7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA40971974C71B0000E5FB /* Filter2DViewController.mm */; };
+		7BDA409B1974D0DE0000E5FB /* CopyBorderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA409A1974D0DE0000E5FB /* CopyBorderViewController.mm */; };
 		7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BDABB861973ACA300C7B2BB /* dog.jpg */; };
 		7BDABB8A1973AD4400C7B2BB /* PyramidViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDABB891973AD4400C7B2BB /* PyramidViewController.mm */; };
 		7BDABB8D1973BDE200C7B2BB /* ThresholdViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDABB8C1973BDE200C7B2BB /* ThresholdViewController.mm */; };
+		7BE773551976298200A3847D /* building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BE773541976298200A3847D /* building.jpg */; };
+		7BE77358197629A200A3847D /* CannyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BE77357197629A200A3847D /* CannyViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +122,11 @@
 		7BC516B9196BD87800CC3F00 /* result_normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = result_normal.jpg; sourceTree = "<group>"; };
 		7BC516BB196BD8A500CC3F00 /* DFTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTViewController.h; sourceTree = "<group>"; };
 		7BC516BC196BD8A500CC3F00 /* DFTViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DFTViewController.mm; sourceTree = "<group>"; };
+		7BD62CD619761AC9000EA5B9 /* SobelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelViewController.h; sourceTree = "<group>"; };
+		7BD62CD719761AC9000EA5B9 /* SobelViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SobelViewController.mm; sourceTree = "<group>"; };
+		7BD62CD919762193000EA5B9 /* cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cow.jpg; sourceTree = "<group>"; };
+		7BD62CDB197621A2000EA5B9 /* LaplacianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaplacianViewController.h; sourceTree = "<group>"; };
+		7BD62CDC197621A2000EA5B9 /* LaplacianViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LaplacianViewController.mm; sourceTree = "<group>"; };
 		7BD8F969196A81A600EC3385 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		7BD8F96B196A81EA00EC3385 /* AddWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWeightViewController.h; sourceTree = "<group>"; };
 		7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddWeightViewController.mm; sourceTree = "<group>"; };
@@ -122,11 +134,18 @@
 		7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContrastViewController.mm; sourceTree = "<group>"; };
 		7BD8F971196A9F7600EC3385 /* BaseDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawViewController.h; sourceTree = "<group>"; };
 		7BD8F972196A9F7600EC3385 /* BaseDrawViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseDrawViewController.mm; sourceTree = "<group>"; };
+		7BDA40961974C71B0000E5FB /* Filter2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter2DViewController.h; sourceTree = "<group>"; };
+		7BDA40971974C71B0000E5FB /* Filter2DViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Filter2DViewController.mm; sourceTree = "<group>"; };
+		7BDA40991974D0DE0000E5FB /* CopyBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyBorderViewController.h; sourceTree = "<group>"; };
+		7BDA409A1974D0DE0000E5FB /* CopyBorderViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CopyBorderViewController.mm; sourceTree = "<group>"; };
 		7BDABB861973ACA300C7B2BB /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		7BDABB881973AD4400C7B2BB /* PyramidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyramidViewController.h; sourceTree = "<group>"; };
 		7BDABB891973AD4400C7B2BB /* PyramidViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PyramidViewController.mm; sourceTree = "<group>"; };
 		7BDABB8B1973BDE200C7B2BB /* ThresholdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThresholdViewController.h; sourceTree = "<group>"; };
 		7BDABB8C1973BDE200C7B2BB /* ThresholdViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThresholdViewController.mm; sourceTree = "<group>"; };
+		7BE773541976298200A3847D /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
+		7BE77356197629A200A3847D /* CannyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CannyViewController.h; sourceTree = "<group>"; };
+		7BE77357197629A200A3847D /* CannyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CannyViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +246,16 @@
 				7BDABB891973AD4400C7B2BB /* PyramidViewController.mm */,
 				7BDABB8B1973BDE200C7B2BB /* ThresholdViewController.h */,
 				7BDABB8C1973BDE200C7B2BB /* ThresholdViewController.mm */,
+				7BDA40961974C71B0000E5FB /* Filter2DViewController.h */,
+				7BDA40971974C71B0000E5FB /* Filter2DViewController.mm */,
+				7BDA40991974D0DE0000E5FB /* CopyBorderViewController.h */,
+				7BDA409A1974D0DE0000E5FB /* CopyBorderViewController.mm */,
+				7BD62CD619761AC9000EA5B9 /* SobelViewController.h */,
+				7BD62CD719761AC9000EA5B9 /* SobelViewController.mm */,
+				7BD62CDB197621A2000EA5B9 /* LaplacianViewController.h */,
+				7BD62CDC197621A2000EA5B9 /* LaplacianViewController.mm */,
+				7BE77356197629A200A3847D /* CannyViewController.h */,
+				7BE77357197629A200A3847D /* CannyViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -304,6 +333,8 @@
 		7BC47F26196145B300EC945A /* pic */ = {
 			isa = PBXGroup;
 			children = (
+				7BE773541976298200A3847D /* building.jpg */,
+				7BD62CD919762193000EA5B9 /* cow.jpg */,
 				7BDABB861973ACA300C7B2BB /* dog.jpg */,
 				7BC06F10196F8C0000F9FC1A /* monkey.jpg */,
 				7BC04AAB196E70040021AD2F /* cat.jpg */,
@@ -392,12 +423,14 @@
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
 				7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */,
 				7BC06F11196F8C0000F9FC1A /* monkey.jpg in Resources */,
+				7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */,
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
 				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
 				7BC47F08196143C800EC945A /* Images.xcassets in Resources */,
+				7BE773551976298200A3847D /* building.jpg in Resources */,
 				7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */,
 				7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */,
 			);
@@ -419,7 +452,9 @@
 			files = (
 				7BC47F06196143C800EC945A /* AppDelegate.m in Sources */,
 				7BC2A2C8196525B100B93CC2 /* WebViewController.m in Sources */,
+				7BDA409B1974D0DE0000E5FB /* CopyBorderViewController.mm in Sources */,
 				7BC2A2AA1964FB4900B93CC2 /* BaseViewController.m in Sources */,
+				7BD62CD819761AC9000EA5B9 /* SobelViewController.mm in Sources */,
 				7BDABB8D1973BDE200C7B2BB /* ThresholdViewController.mm in Sources */,
 				7BC2A2D019654A6C00B93CC2 /* ScanningViewController.mm in Sources */,
 				7BC06F14196F8C6C00F9FC1A /* MorphoViewController.mm in Sources */,
@@ -431,13 +466,16 @@
 				7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */,
 				7BD8F974196AAD0800EC3385 /* BaseDrawViewController.mm in Sources */,
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
+				7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */,
 				7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */,
 				7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */,
 				7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */,
+				7BE77358197629A200A3847D /* CannyViewController.mm in Sources */,
 				7BC516B8196BCC6500CC3F00 /* RNGViewController.mm in Sources */,
 				7BC04AAA196E3FFE0021AD2F /* ImgBlurViewController.mm in Sources */,
 				7BC04AAF196E705F0021AD2F /* ErosionViewController.mm in Sources */,
 				7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */,
+				7BD62CDD197621A2000EA5B9 /* LaplacianViewController.mm in Sources */,
 				7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */,
 				7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */,
 			);

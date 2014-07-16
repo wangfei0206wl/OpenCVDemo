@@ -13,6 +13,11 @@
 #import "MorphoViewController.h"
 #import "PyramidViewController.h"
 #import "ThresholdViewController.h"
+#import "Filter2DViewController.h"
+#import "CopyBorderViewController.h"
+#import "SobelViewController.h"
+#import "LaplacianViewController.h"
+#import "CannyViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -32,7 +37,7 @@
 }
 
 - (void)initDatas {
-    _arrMenus = [NSArray arrayWithObjects:@"图像平滑处理", @"腐蚀与膨胀", @"更多形态学变换", @"图像金字塔", @"基本的阈值操作", @"实现自己的线性滤波器", @"为张图像添加边界", @"Sobel导数", @"Laplace算子", @"Canny边缘检测", @"霍夫线变换", @"霍夫圆变换", @"Remapping重映射", @"仿射变换", @"直方图均值化", @"直方图计算", @"直方图对比", @"反向投影", @"模板匹配", @"在图像中寻找轮廓", @"计算物体的凸包", @"创建包围轮廓的矩形和圆形边界框", @"为轮廓创建可倾斜的边界框和椭圆", @"轮廓矩", @"多边形测试", nil];
+    _arrMenus = [NSArray arrayWithObjects:@"图像平滑处理", @"腐蚀与膨胀", @"更多形态学变换", @"图像金字塔", @"基本的阈值操作", @"实现自己的线性滤波器", @"给图像添加边界", @"Sobel导数", @"Laplace算子", @"Canny边缘检测", @"霍夫线变换", @"霍夫圆变换", @"Remapping重映射", @"仿射变换", @"直方图均值化", @"直方图计算", @"直方图对比", @"反向投影", @"模板匹配", @"在图像中寻找轮廓", @"计算物体的凸包", @"创建包围轮廓的矩形和圆形边界框", @"为轮廓创建可倾斜的边界框和椭圆", @"轮廓矩", @"多边形测试", nil];
 }
 
 - (void)createViews {
@@ -96,10 +101,36 @@
         }
             break;
         case 5:
+        {
+            Filter2DViewController *controller = [[Filter2DViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 6:
+        {
+            CopyBorderViewController *controller = [[CopyBorderViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         case 7:
+        {
+            SobelViewController *controller = [[SobelViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 8:
+        {
+            LaplacianViewController *controller = [[LaplacianViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 9:
+        {
+            CannyViewController *controller = [[CannyViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 10:
             break;
         default:
             break;
