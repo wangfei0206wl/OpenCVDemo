@@ -18,6 +18,7 @@
 #import "SobelViewController.h"
 #import "LaplacianViewController.h"
 #import "CannyViewController.h"
+#import "HoughLinesViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -131,6 +132,10 @@
         }
             break;
         case 10:
+        {
+            HoughLinesViewController *controller = [[HoughLinesViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
             break;
         default:
             break;

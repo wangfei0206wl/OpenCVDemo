@@ -55,6 +55,7 @@
 		7BDABB8D1973BDE200C7B2BB /* ThresholdViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDABB8C1973BDE200C7B2BB /* ThresholdViewController.mm */; };
 		7BE773551976298200A3847D /* building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BE773541976298200A3847D /* building.jpg */; };
 		7BE77358197629A200A3847D /* CannyViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BE77357197629A200A3847D /* CannyViewController.mm */; };
+		7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BF52190197775D100D433A9 /* HoughLinesViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,8 @@
 		7BE773541976298200A3847D /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
 		7BE77356197629A200A3847D /* CannyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CannyViewController.h; sourceTree = "<group>"; };
 		7BE77357197629A200A3847D /* CannyViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CannyViewController.mm; sourceTree = "<group>"; };
+		7BF5218F197775D100D433A9 /* HoughLinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoughLinesViewController.h; sourceTree = "<group>"; };
+		7BF52190197775D100D433A9 /* HoughLinesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HoughLinesViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +259,8 @@
 				7BD62CDC197621A2000EA5B9 /* LaplacianViewController.mm */,
 				7BE77356197629A200A3847D /* CannyViewController.h */,
 				7BE77357197629A200A3847D /* CannyViewController.mm */,
+				7BF5218F197775D100D433A9 /* HoughLinesViewController.h */,
+				7BF52190197775D100D433A9 /* HoughLinesViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 				7BC06F14196F8C6C00F9FC1A /* MorphoViewController.mm in Sources */,
 				7BDABB8A1973AD4400C7B2BB /* PyramidViewController.mm in Sources */,
 				7BC47F02196143C800EC945A /* main.m in Sources */,
+				7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */,
 				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
 				7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */,
 				7BC2A2CB196533A500B93CC2 /* OpenCVUtility.mm in Sources */,
