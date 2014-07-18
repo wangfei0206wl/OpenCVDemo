@@ -19,6 +19,8 @@
 #import "LaplacianViewController.h"
 #import "CannyViewController.h"
 #import "HoughLinesViewController.h"
+#import "HoughCirclesViewController.h"
+#import "RemapViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -134,6 +136,18 @@
         case 10:
         {
             HoughLinesViewController *controller = [[HoughLinesViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 11:
+        {
+            HoughCirclesViewController *controller = [[HoughCirclesViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 12:
+        {
+            RemapViewController *controller = [[RemapViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

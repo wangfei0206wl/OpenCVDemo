@@ -41,6 +41,10 @@
 		7BC516B8196BCC6500CC3F00 /* RNGViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC516B7196BCC6500CC3F00 /* RNGViewController.mm */; };
 		7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC516B9196BD87800CC3F00 /* result_normal.jpg */; };
 		7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC516BC196BD8A500CC3F00 /* DFTViewController.mm */; };
+		7BC7C5781978C25500F564EB /* circles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7C5771978C25500F564EB /* circles.jpg */; };
+		7BC7C57B1978C26F00F564EB /* HoughCirclesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7C57A1978C26F00F564EB /* HoughCirclesViewController.mm */; };
+		7BC7C5921978CC8600F564EB /* big_dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7C5911978CC8600F564EB /* big_dog.jpg */; };
+		7BC7C5951978CD0700F564EB /* RemapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7C5941978CD0700F564EB /* RemapViewController.mm */; };
 		7BD62CD819761AC9000EA5B9 /* SobelViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD62CD719761AC9000EA5B9 /* SobelViewController.mm */; };
 		7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BD62CD919762193000EA5B9 /* cow.jpg */; };
 		7BD62CDD197621A2000EA5B9 /* LaplacianViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD62CDC197621A2000EA5B9 /* LaplacianViewController.mm */; };
@@ -123,6 +127,12 @@
 		7BC516B9196BD87800CC3F00 /* result_normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = result_normal.jpg; sourceTree = "<group>"; };
 		7BC516BB196BD8A500CC3F00 /* DFTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTViewController.h; sourceTree = "<group>"; };
 		7BC516BC196BD8A500CC3F00 /* DFTViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DFTViewController.mm; sourceTree = "<group>"; };
+		7BC7C5771978C25500F564EB /* circles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = circles.jpg; sourceTree = "<group>"; };
+		7BC7C5791978C26F00F564EB /* HoughCirclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoughCirclesViewController.h; sourceTree = "<group>"; };
+		7BC7C57A1978C26F00F564EB /* HoughCirclesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HoughCirclesViewController.mm; sourceTree = "<group>"; };
+		7BC7C5911978CC8600F564EB /* big_dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = big_dog.jpg; sourceTree = "<group>"; };
+		7BC7C5931978CD0700F564EB /* RemapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemapViewController.h; sourceTree = "<group>"; };
+		7BC7C5941978CD0700F564EB /* RemapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RemapViewController.mm; sourceTree = "<group>"; };
 		7BD62CD619761AC9000EA5B9 /* SobelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelViewController.h; sourceTree = "<group>"; };
 		7BD62CD719761AC9000EA5B9 /* SobelViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SobelViewController.mm; sourceTree = "<group>"; };
 		7BD62CD919762193000EA5B9 /* cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cow.jpg; sourceTree = "<group>"; };
@@ -261,6 +271,10 @@
 				7BE77357197629A200A3847D /* CannyViewController.mm */,
 				7BF5218F197775D100D433A9 /* HoughLinesViewController.h */,
 				7BF52190197775D100D433A9 /* HoughLinesViewController.mm */,
+				7BC7C5791978C26F00F564EB /* HoughCirclesViewController.h */,
+				7BC7C57A1978C26F00F564EB /* HoughCirclesViewController.mm */,
+				7BC7C5931978CD0700F564EB /* RemapViewController.h */,
+				7BC7C5941978CD0700F564EB /* RemapViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -338,6 +352,8 @@
 		7BC47F26196145B300EC945A /* pic */ = {
 			isa = PBXGroup;
 			children = (
+				7BC7C5911978CC8600F564EB /* big_dog.jpg */,
+				7BC7C5771978C25500F564EB /* circles.jpg */,
 				7BE773541976298200A3847D /* building.jpg */,
 				7BD62CD919762193000EA5B9 /* cow.jpg */,
 				7BDABB861973ACA300C7B2BB /* dog.jpg */,
@@ -431,6 +447,7 @@
 				7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */,
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
+				7BC7C5921978CC8600F564EB /* big_dog.jpg in Resources */,
 				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
@@ -438,6 +455,7 @@
 				7BE773551976298200A3847D /* building.jpg in Resources */,
 				7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */,
 				7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */,
+				7BC7C5781978C25500F564EB /* circles.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,11 +480,13 @@
 				7BD62CD819761AC9000EA5B9 /* SobelViewController.mm in Sources */,
 				7BDABB8D1973BDE200C7B2BB /* ThresholdViewController.mm in Sources */,
 				7BC2A2D019654A6C00B93CC2 /* ScanningViewController.mm in Sources */,
+				7BC7C5951978CD0700F564EB /* RemapViewController.mm in Sources */,
 				7BC06F14196F8C6C00F9FC1A /* MorphoViewController.mm in Sources */,
 				7BDABB8A1973AD4400C7B2BB /* PyramidViewController.mm in Sources */,
 				7BC47F02196143C800EC945A /* main.m in Sources */,
 				7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */,
 				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
+				7BC7C57B1978C26F00F564EB /* HoughCirclesViewController.mm in Sources */,
 				7BC2A2AD1964FB8F00B93CC2 /* MainViewController.m in Sources */,
 				7BC2A2CB196533A500B93CC2 /* OpenCVUtility.mm in Sources */,
 				7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */,
