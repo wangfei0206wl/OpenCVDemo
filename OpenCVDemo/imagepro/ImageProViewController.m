@@ -21,6 +21,8 @@
 #import "HoughLinesViewController.h"
 #import "HoughCirclesViewController.h"
 #import "RemapViewController.h"
+#import "WarpAffineViewController.h"
+#import "EqualizeHistViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -148,6 +150,18 @@
         case 12:
         {
             RemapViewController *controller = [[RemapViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 13:
+        {
+            WarpAffineViewController *controller = [[WarpAffineViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 14:
+        {
+            EqualizeHistViewController *controller = [[EqualizeHistViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
