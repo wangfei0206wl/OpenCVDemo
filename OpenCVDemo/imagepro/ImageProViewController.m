@@ -23,6 +23,9 @@
 #import "RemapViewController.h"
 #import "WarpAffineViewController.h"
 #import "EqualizeHistViewController.h"
+#import "CalcHistViewController.h"
+#import "CompareHistViewController.h"
+#import "BackProjectViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -162,6 +165,24 @@
         case 14:
         {
             EqualizeHistViewController *controller = [[EqualizeHistViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 15:
+        {
+            CalcHistViewController *controller = [[CalcHistViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 16:
+        {
+            CompareHistViewController *controller = [[CompareHistViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 17:
+        {
+            BackProjectViewController *controller = [[BackProjectViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
