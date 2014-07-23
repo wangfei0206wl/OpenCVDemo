@@ -26,6 +26,7 @@
 #import "CalcHistViewController.h"
 #import "CompareHistViewController.h"
 #import "BackProjectViewController.h"
+#import "MatchTempViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -183,6 +184,12 @@
         case 17:
         {
             BackProjectViewController *controller = [[BackProjectViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 18:
+        {
+            MatchTempViewController *controller = [[MatchTempViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

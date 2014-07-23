@@ -16,6 +16,10 @@
 		7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */; };
 		7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */; };
 		7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */; };
+		7BBD12FF197F9EF20002A1EA /* person_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12FD197F9EF20002A1EA /* person_one.jpg */; };
+		7BBD1300197F9EF20002A1EA /* person_temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12FE197F9EF20002A1EA /* person_temp.jpg */; };
+		7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD1302197F9F190002A1EA /* MatchTempViewController.mm */; };
+		7BBD132E197FAB030002A1EA /* lena_temp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD132D197FAB030002A1EA /* lena_temp.jpg */; };
 		7BC04AAA196E3FFE0021AD2F /* ImgBlurViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC04AA9196E3FFE0021AD2F /* ImgBlurViewController.mm */; };
 		7BC04AAC196E70040021AD2F /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BC04AAB196E70040021AD2F /* cat.jpg */; };
 		7BC04AAF196E705F0021AD2F /* ErosionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC04AAE196E705F0021AD2F /* ErosionViewController.mm */; };
@@ -97,6 +101,11 @@
 		7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_two.jpg; sourceTree = "<group>"; };
 		7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackProjectViewController.h; sourceTree = "<group>"; };
 		7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackProjectViewController.mm; sourceTree = "<group>"; };
+		7BBD12FD197F9EF20002A1EA /* person_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person_one.jpg; sourceTree = "<group>"; };
+		7BBD12FE197F9EF20002A1EA /* person_temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person_temp.jpg; sourceTree = "<group>"; };
+		7BBD1301197F9F190002A1EA /* MatchTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchTempViewController.h; sourceTree = "<group>"; };
+		7BBD1302197F9F190002A1EA /* MatchTempViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MatchTempViewController.mm; sourceTree = "<group>"; };
+		7BBD132D197FAB030002A1EA /* lena_temp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena_temp.jpg; sourceTree = "<group>"; };
 		7BC04AA8196E3FFE0021AD2F /* ImgBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgBlurViewController.h; sourceTree = "<group>"; };
 		7BC04AA9196E3FFE0021AD2F /* ImgBlurViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImgBlurViewController.mm; sourceTree = "<group>"; };
 		7BC04AAB196E70040021AD2F /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
@@ -314,6 +323,8 @@
 				7BB611E4197E1B6C00262C83 /* CompareHistViewController.mm */,
 				7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */,
 				7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */,
+				7BBD1301197F9F190002A1EA /* MatchTempViewController.h */,
+				7BBD1302197F9F190002A1EA /* MatchTempViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -391,6 +402,9 @@
 		7BC47F26196145B300EC945A /* pic */ = {
 			isa = PBXGroup;
 			children = (
+				7BBD132D197FAB030002A1EA /* lena_temp.jpg */,
+				7BBD12FD197F9EF20002A1EA /* person_one.jpg */,
+				7BBD12FE197F9EF20002A1EA /* person_temp.jpg */,
 				7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */,
 				7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */,
 				7BB611DD197E1B2F00262C83 /* hand_one.jpg */,
@@ -497,12 +511,15 @@
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
 				7BC7C5921978CC8600F564EB /* big_dog.jpg in Resources */,
+				7BBD1300197F9EF20002A1EA /* person_temp.jpg in Resources */,
 				7BB611E0197E1B2F00262C83 /* hand_one.jpg in Resources */,
 				7BC2A2B11964FCC900B93CC2 /* btn_cancel_normal.png in Resources */,
 				7BC47F28196145B300EC945A /* lena.jpg in Resources */,
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
 				7BC47F08196143C800EC945A /* Images.xcassets in Resources */,
+				7BBD12FF197F9EF20002A1EA /* person_one.jpg in Resources */,
 				7BB611E2197E1B2F00262C83 /* hand_two.jpg in Resources */,
+				7BBD132E197FAB030002A1EA /* lena_temp.jpg in Resources */,
 				7BE773551976298200A3847D /* building.jpg in Resources */,
 				7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */,
 				7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */,
@@ -549,6 +566,7 @@
 				7BD8F974196AAD0800EC3385 /* BaseDrawViewController.mm in Sources */,
 				7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */,
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
+				7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */,
 				7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */,
 				7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */,
 				7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */,
