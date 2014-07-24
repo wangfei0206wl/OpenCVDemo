@@ -29,6 +29,7 @@
 #import "MatchTempViewController.h"
 #import "ContoursViewController.h"
 #import "ConvexHullViewController.h"
+#import "BoundsViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -204,6 +205,12 @@
         case 20:
         {
             ConvexHullViewController *controller = [[ConvexHullViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 21:
+        {
+            BoundsViewController *controller = [[BoundsViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
