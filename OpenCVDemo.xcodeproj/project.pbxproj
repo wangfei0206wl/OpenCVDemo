@@ -15,6 +15,7 @@
 		7BB611E5197E1B6C00262C83 /* CompareHistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB611E4197E1B6C00262C83 /* CompareHistViewController.mm */; };
 		7BB6CFB01980AC0400F2AAFA /* fish_demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB6CFAF1980AC0400F2AAFA /* fish_demo.jpg */; };
 		7BB6CFB31980AD8100F2AAFA /* ContoursViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */; };
+		7BB6CFB61980C12100F2AAFA /* ConvexHullViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFB51980C12100F2AAFA /* ConvexHullViewController.mm */; };
 		7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */; };
 		7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */; };
 		7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */; };
@@ -102,6 +103,8 @@
 		7BB6CFAF1980AC0400F2AAFA /* fish_demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish_demo.jpg; sourceTree = "<group>"; };
 		7BB6CFB11980AD8100F2AAFA /* ContoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContoursViewController.h; sourceTree = "<group>"; };
 		7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContoursViewController.mm; sourceTree = "<group>"; };
+		7BB6CFB41980C12100F2AAFA /* ConvexHullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvexHullViewController.h; sourceTree = "<group>"; };
+		7BB6CFB51980C12100F2AAFA /* ConvexHullViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConvexHullViewController.mm; sourceTree = "<group>"; };
 		7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_one.jpg; sourceTree = "<group>"; };
 		7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_two.jpg; sourceTree = "<group>"; };
 		7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackProjectViewController.h; sourceTree = "<group>"; };
@@ -332,6 +335,8 @@
 				7BBD1302197F9F190002A1EA /* MatchTempViewController.mm */,
 				7BB6CFB11980AD8100F2AAFA /* ContoursViewController.h */,
 				7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */,
+				7BB6CFB41980C12100F2AAFA /* ConvexHullViewController.h */,
+				7BB6CFB51980C12100F2AAFA /* ConvexHullViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -578,6 +583,7 @@
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
 				7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */,
 				7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */,
+				7BB6CFB61980C12100F2AAFA /* ConvexHullViewController.mm in Sources */,
 				7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */,
 				7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */,
 				7BC2A2C21965090800B93CC2 /* HighGUIViewController.m in Sources */,
