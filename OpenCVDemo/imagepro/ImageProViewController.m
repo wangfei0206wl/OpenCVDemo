@@ -27,6 +27,7 @@
 #import "CompareHistViewController.h"
 #import "BackProjectViewController.h"
 #import "MatchTempViewController.h"
+#import "ContoursViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -190,6 +191,12 @@
         case 18:
         {
             MatchTempViewController *controller = [[MatchTempViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 19:
+        {
+            ContoursViewController *controller = [[ContoursViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

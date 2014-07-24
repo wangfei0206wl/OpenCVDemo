@@ -13,6 +13,8 @@
 		7BB611E1197E1B2F00262C83 /* hand_three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DE197E1B2F00262C83 /* hand_three.jpg */; };
 		7BB611E2197E1B2F00262C83 /* hand_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DF197E1B2F00262C83 /* hand_two.jpg */; };
 		7BB611E5197E1B6C00262C83 /* CompareHistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB611E4197E1B6C00262C83 /* CompareHistViewController.mm */; };
+		7BB6CFB01980AC0400F2AAFA /* fish_demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB6CFAF1980AC0400F2AAFA /* fish_demo.jpg */; };
+		7BB6CFB31980AD8100F2AAFA /* ContoursViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */; };
 		7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */; };
 		7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */; };
 		7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */; };
@@ -97,6 +99,9 @@
 		7BB611DF197E1B2F00262C83 /* hand_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_two.jpg; sourceTree = "<group>"; };
 		7BB611E3197E1B6C00262C83 /* CompareHistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareHistViewController.h; sourceTree = "<group>"; };
 		7BB611E4197E1B6C00262C83 /* CompareHistViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CompareHistViewController.mm; sourceTree = "<group>"; };
+		7BB6CFAF1980AC0400F2AAFA /* fish_demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish_demo.jpg; sourceTree = "<group>"; };
+		7BB6CFB11980AD8100F2AAFA /* ContoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContoursViewController.h; sourceTree = "<group>"; };
+		7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContoursViewController.mm; sourceTree = "<group>"; };
 		7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_one.jpg; sourceTree = "<group>"; };
 		7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_two.jpg; sourceTree = "<group>"; };
 		7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackProjectViewController.h; sourceTree = "<group>"; };
@@ -325,6 +330,8 @@
 				7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */,
 				7BBD1301197F9F190002A1EA /* MatchTempViewController.h */,
 				7BBD1302197F9F190002A1EA /* MatchTempViewController.mm */,
+				7BB6CFB11980AD8100F2AAFA /* ContoursViewController.h */,
+				7BB6CFB21980AD8100F2AAFA /* ContoursViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -402,6 +409,7 @@
 		7BC47F26196145B300EC945A /* pic */ = {
 			isa = PBXGroup;
 			children = (
+				7BB6CFAF1980AC0400F2AAFA /* fish_demo.jpg */,
 				7BBD132D197FAB030002A1EA /* lena_temp.jpg */,
 				7BBD12FD197F9EF20002A1EA /* person_one.jpg */,
 				7BBD12FE197F9EF20002A1EA /* person_temp.jpg */,
@@ -503,6 +511,7 @@
 			files = (
 				7BC47F00196143C800EC945A /* InfoPlist.strings in Resources */,
 				7BC2A2B21964FCC900B93CC2 /* btn_cancel_pressed.png in Resources */,
+				7BB6CFB01980AC0400F2AAFA /* fish_demo.jpg in Resources */,
 				7BC06F11196F8C0000F9FC1A /* monkey.jpg in Resources */,
 				7BD3C9A1197CBF2C00EC364B /* scenery.jpg in Resources */,
 				7BB611DC197E00FF00262C83 /* scenery_new.jpg in Resources */,
@@ -564,6 +573,7 @@
 				7BD3C9A9197D11FC00EC364B /* EqualizeHistViewController.mm in Sources */,
 				7BC2A2BC1965086800B93CC2 /* ImageProViewController.m in Sources */,
 				7BD8F974196AAD0800EC3385 /* BaseDrawViewController.mm in Sources */,
+				7BB6CFB31980AD8100F2AAFA /* ContoursViewController.mm in Sources */,
 				7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */,
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
 				7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */,
