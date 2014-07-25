@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */; };
+		7BB6099F198205E5000C9DF6 /* ContoursAreaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */; };
 		7BB611DA197DFFF100262C83 /* CalcHistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB611D9197DFFF100262C83 /* CalcHistViewController.mm */; };
 		7BB611DC197E00FF00262C83 /* scenery_new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DB197E00FF00262C83 /* scenery_new.jpg */; };
 		7BB611E0197E1B2F00262C83 /* hand_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DD197E1B2F00262C83 /* hand_one.jpg */; };
@@ -94,6 +96,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BB6099A1981F90F000C9DF6 /* AreaRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaRectViewController.h; sourceTree = "<group>"; };
+		7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AreaRectViewController.mm; sourceTree = "<group>"; };
+		7BB6099D198205E5000C9DF6 /* ContoursAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContoursAreaViewController.h; sourceTree = "<group>"; };
+		7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContoursAreaViewController.mm; sourceTree = "<group>"; };
 		7BB611D8197DFFF100262C83 /* CalcHistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcHistViewController.h; sourceTree = "<group>"; };
 		7BB611D9197DFFF100262C83 /* CalcHistViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalcHistViewController.mm; sourceTree = "<group>"; };
 		7BB611DB197E00FF00262C83 /* scenery_new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scenery_new.jpg; sourceTree = "<group>"; };
@@ -344,6 +350,10 @@
 				7BB6CFB51980C12100F2AAFA /* ConvexHullViewController.mm */,
 				7BB6CFB91980ECC000F2AAFA /* BoundsViewController.h */,
 				7BB6CFBA1980ECC000F2AAFA /* BoundsViewController.mm */,
+				7BB6099A1981F90F000C9DF6 /* AreaRectViewController.h */,
+				7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */,
+				7BB6099D198205E5000C9DF6 /* ContoursAreaViewController.h */,
+				7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -577,6 +587,7 @@
 				7BC06F14196F8C6C00F9FC1A /* MorphoViewController.mm in Sources */,
 				7BDABB8A1973AD4400C7B2BB /* PyramidViewController.mm in Sources */,
 				7BC47F02196143C800EC945A /* main.m in Sources */,
+				7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */,
 				7BB611DA197DFFF100262C83 /* CalcHistViewController.mm in Sources */,
 				7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */,
 				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
@@ -605,6 +616,7 @@
 				7BC291CE1966B1D000813B1C /* MatMaskViewController.mm in Sources */,
 				7BD62CDD197621A2000EA5B9 /* LaplacianViewController.mm in Sources */,
 				7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */,
+				7BB6099F198205E5000C9DF6 /* ContoursAreaViewController.mm in Sources */,
 				7BC2A2B91965062B00B93CC2 /* CoreMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

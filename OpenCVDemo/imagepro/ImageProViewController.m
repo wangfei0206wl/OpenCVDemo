@@ -30,6 +30,8 @@
 #import "ContoursViewController.h"
 #import "ConvexHullViewController.h"
 #import "BoundsViewController.h"
+#import "AreaRectViewController.h"
+#import "ContoursAreaViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -211,6 +213,18 @@
         case 21:
         {
             BoundsViewController *controller = [[BoundsViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 22:
+        {
+            AreaRectViewController *controller = [[AreaRectViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 23:
+        {
+            ContoursAreaViewController *controller = [[ContoursAreaViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
