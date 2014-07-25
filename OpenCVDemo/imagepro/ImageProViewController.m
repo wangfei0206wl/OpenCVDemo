@@ -32,6 +32,7 @@
 #import "BoundsViewController.h"
 #import "AreaRectViewController.h"
 #import "ContoursAreaViewController.h"
+#import "PolygonTestViewController.h"
 
 @interface ImageProViewController () {
     NSArray *_arrMenus;
@@ -225,6 +226,12 @@
         case 23:
         {
             ContoursAreaViewController *controller = [[ContoursAreaViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 24:
+        {
+            PolygonTestViewController *controller = [[PolygonTestViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

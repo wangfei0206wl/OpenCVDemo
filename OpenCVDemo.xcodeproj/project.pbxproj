@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */; };
 		7BB6099F198205E5000C9DF6 /* ContoursAreaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */; };
+		7BB609A219824373000C9DF6 /* PolygonTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB609A119824373000C9DF6 /* PolygonTestViewController.mm */; };
 		7BB611DA197DFFF100262C83 /* CalcHistViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB611D9197DFFF100262C83 /* CalcHistViewController.mm */; };
 		7BB611DC197E00FF00262C83 /* scenery_new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DB197E00FF00262C83 /* scenery_new.jpg */; };
 		7BB611E0197E1B2F00262C83 /* hand_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB611DD197E1B2F00262C83 /* hand_one.jpg */; };
@@ -100,6 +101,8 @@
 		7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AreaRectViewController.mm; sourceTree = "<group>"; };
 		7BB6099D198205E5000C9DF6 /* ContoursAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContoursAreaViewController.h; sourceTree = "<group>"; };
 		7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContoursAreaViewController.mm; sourceTree = "<group>"; };
+		7BB609A019824373000C9DF6 /* PolygonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonTestViewController.h; sourceTree = "<group>"; };
+		7BB609A119824373000C9DF6 /* PolygonTestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PolygonTestViewController.mm; sourceTree = "<group>"; };
 		7BB611D8197DFFF100262C83 /* CalcHistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcHistViewController.h; sourceTree = "<group>"; };
 		7BB611D9197DFFF100262C83 /* CalcHistViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalcHistViewController.mm; sourceTree = "<group>"; };
 		7BB611DB197E00FF00262C83 /* scenery_new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scenery_new.jpg; sourceTree = "<group>"; };
@@ -354,6 +357,8 @@
 				7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */,
 				7BB6099D198205E5000C9DF6 /* ContoursAreaViewController.h */,
 				7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */,
+				7BB609A019824373000C9DF6 /* PolygonTestViewController.h */,
+				7BB609A119824373000C9DF6 /* PolygonTestViewController.mm */,
 			);
 			path = imagepro;
 			sourceTree = "<group>";
@@ -590,6 +595,7 @@
 				7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */,
 				7BB611DA197DFFF100262C83 /* CalcHistViewController.mm in Sources */,
 				7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */,
+				7BB609A219824373000C9DF6 /* PolygonTestViewController.mm in Sources */,
 				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
 				7BB611E5197E1B6C00262C83 /* CompareHistViewController.mm in Sources */,
 				7BC7C57B1978C26F00F564EB /* HoughCirclesViewController.mm in Sources */,
