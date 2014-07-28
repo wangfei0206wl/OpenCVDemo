@@ -21,6 +21,8 @@
 		7BB6CFB61980C12100F2AAFA /* ConvexHullViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFB51980C12100F2AAFA /* ConvexHullViewController.mm */; };
 		7BB6CFB81980EBFB00F2AAFA /* balloon_demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BB6CFB71980EBFB00F2AAFA /* balloon_demo.jpg */; };
 		7BB6CFBB1980ECC000F2AAFA /* BoundsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFBA1980ECC000F2AAFA /* BoundsViewController.mm */; };
+		7BBB802B1985E57D00ABCA50 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB80281985E57D00ABCA50 /* SVProgressHUD.bundle */; };
+		7BBB802C1985E57D00ABCA50 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */; };
 		7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */; };
 		7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */; };
 		7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */; };
@@ -119,6 +121,9 @@
 		7BB6CFB71980EBFB00F2AAFA /* balloon_demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = balloon_demo.jpg; sourceTree = "<group>"; };
 		7BB6CFB91980ECC000F2AAFA /* BoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundsViewController.h; sourceTree = "<group>"; };
 		7BB6CFBA1980ECC000F2AAFA /* BoundsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BoundsViewController.mm; sourceTree = "<group>"; };
+		7BBB80281985E57D00ABCA50 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		7BBB80291985E57D00ABCA50 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_one.jpg; sourceTree = "<group>"; };
 		7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_two.jpg; sourceTree = "<group>"; };
 		7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackProjectViewController.h; sourceTree = "<group>"; };
@@ -246,6 +251,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BBB80261985E57D00ABCA50 /* third_part */ = {
+			isa = PBXGroup;
+			children = (
+				7BBB80271985E57D00ABCA50 /* SVProgressHUD */,
+			);
+			path = third_part;
+			sourceTree = "<group>";
+		};
+		7BBB80271985E57D00ABCA50 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7BBB80281985E57D00ABCA50 /* SVProgressHUD.bundle */,
+				7BBB80291985E57D00ABCA50 /* SVProgressHUD.h */,
+				7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		7BC2A2A61964FB4900B93CC2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +398,7 @@
 		7BC47EE9196143C700EC945A = {
 			isa = PBXGroup;
 			children = (
+				7BBB80261985E57D00ABCA50 /* third_part */,
 				7BC47EFB196143C800EC945A /* OpenCVDemo */,
 				7BC47EF4196143C800EC945A /* Frameworks */,
 				7BC47EF3196143C800EC945A /* Products */,
@@ -544,6 +568,7 @@
 				7BD3C9A1197CBF2C00EC364B /* scenery.jpg in Resources */,
 				7BB611DC197E00FF00262C83 /* scenery_new.jpg in Resources */,
 				7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */,
+				7BBB802B1985E57D00ABCA50 /* SVProgressHUD.bundle in Resources */,
 				7BB611E1197E1B2F00262C83 /* hand_three.jpg in Resources */,
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
@@ -590,6 +615,7 @@
 				7BC2A2D019654A6C00B93CC2 /* ScanningViewController.mm in Sources */,
 				7BC7C5951978CD0700F564EB /* RemapViewController.mm in Sources */,
 				7BC06F14196F8C6C00F9FC1A /* MorphoViewController.mm in Sources */,
+				7BBB802C1985E57D00ABCA50 /* SVProgressHUD.m in Sources */,
 				7BDABB8A1973AD4400C7B2BB /* PyramidViewController.mm in Sources */,
 				7BC47F02196143C800EC945A /* main.m in Sources */,
 				7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */,
