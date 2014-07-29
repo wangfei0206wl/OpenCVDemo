@@ -149,47 +149,6 @@
             _picImageView.image = [OpenCVUtility MatToUIImage:drawing];
         });
     });
-#if 0
-    Mat src_copy = _srcImage.clone();
-    
-    // 寻找轮廓
-    cv::vector<cv::vector<cv::Point>> contours;
-    cv::vector<cv::Vec4i> hierarchy;
-    findContours(src_copy, contours, hierarchy, CV_RETR_TREE, CHAIN_APPROX_SIMPLE);
-    
-    // 计算到轮廓的距离
-    Mat raw_dist(src_copy.rows, src_copy.cols, CV_32FC1);
-    
-    for (int i = 0; i < src_copy.rows; i++) {
-        for (int j = 0; j < src_copy.cols; j++) {
-            raw_dist.at<float>(i, j) = pointPolygonTest(contours[0], cv::Point2f(j, i), true);
-        }
-    }
-    
-    double maxVal; double minVal;
-    minMaxLoc(raw_dist, &minVal, &maxVal, 0, 0, Mat());
-    minVal = abs(minVal); maxVal = abs(maxVal);
-    
-    // 绘制多边形
-    Mat drawing = Mat::zeros(src_copy.rows, src_copy.cols, CV_8UC3);
-    for (int i = 0; i < src_copy.rows; i++) {
-        for (int j = 0; j < src_copy.cols; j++) {
-            if (raw_dist.at<float>(i, j) < 0) {
-                drawing.at<Vec3b>(i, j)[0] = 255 - (int)abs(raw_dist.at<float>(i, j)) * 255 / minVal;
-            }
-            else if (raw_dist.at<float>(i, j) > 0) {
-                drawing.at<Vec3b>(i, j)[2] = 255 - (int)raw_dist.at<float>(i, j) * 255 / maxVal;
-            }
-            else {
-                drawing.at<Vec3b>(i, j)[0] = 255;
-                drawing.at<Vec3b>(i, j)[1] = 255;
-                drawing.at<Vec3b>(i, j)[2] = 255;
-            }
-        }
-    }
-    
-    _picImageView.image = [OpenCVUtility MatToUIImage:drawing];
-#endif
 }
 
 - (void)onClickStudy {
