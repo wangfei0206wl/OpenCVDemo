@@ -23,6 +23,15 @@
 		7BB6CFBB1980ECC000F2AAFA /* BoundsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6CFBA1980ECC000F2AAFA /* BoundsViewController.mm */; };
 		7BBB802B1985E57D00ABCA50 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB80281985E57D00ABCA50 /* SVProgressHUD.bundle */; };
 		7BBB802C1985E57D00ABCA50 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */; };
+		7BBCF5971991D37E0026F634 /* CameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCF5961991D37E0026F634 /* CameraViewController.mm */; };
+		7BBCF5991991D72A0026F634 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBCF5981991D72A0026F634 /* AVFoundation.framework */; };
+		7BBCF59B1991D75F0026F634 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBCF59A1991D75F0026F634 /* AssetsLibrary.framework */; };
+		7BBCF59F1991D7B60026F634 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBCF59E1991D7B60026F634 /* CoreMedia.framework */; };
+		7BBCF5A2199209E40026F634 /* FaceDetectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCF5A1199209E40026F634 /* FaceDetectViewController.mm */; };
+		7BBCF5A819920F020026F634 /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCF5A419920F020026F634 /* haarcascade_eye.xml */; };
+		7BBCF5A919920F020026F634 /* lbpcascade_frontalface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCF5A519920F020026F634 /* lbpcascade_frontalface.xml */; };
+		7BBCF5AA19920F020026F634 /* lbpcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCF5A619920F020026F634 /* lbpcascade_profileface.xml */; };
+		7BBCF5AB19920F020026F634 /* lbpcascade_silverware.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCF5A719920F020026F634 /* lbpcascade_silverware.xml */; };
 		7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */; };
 		7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */; };
 		7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD12FB197F5BD20002A1EA /* BackProjectViewController.mm */; };
@@ -124,6 +133,18 @@
 		7BBB80281985E57D00ABCA50 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		7BBB80291985E57D00ABCA50 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		7BBCF5951991D37E0026F634 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		7BBCF5961991D37E0026F634 /* CameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraViewController.mm; sourceTree = "<group>"; };
+		7BBCF5981991D72A0026F634 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7BBCF59A1991D75F0026F634 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7BBCF59C1991D7A70026F634 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7BBCF59E1991D7B60026F634 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7BBCF5A0199209E40026F634 /* FaceDetectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceDetectViewController.h; sourceTree = "<group>"; };
+		7BBCF5A1199209E40026F634 /* FaceDetectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FaceDetectViewController.mm; sourceTree = "<group>"; };
+		7BBCF5A419920F020026F634 /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
+		7BBCF5A519920F020026F634 /* lbpcascade_frontalface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lbpcascade_frontalface.xml; sourceTree = "<group>"; };
+		7BBCF5A619920F020026F634 /* lbpcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lbpcascade_profileface.xml; sourceTree = "<group>"; };
+		7BBCF5A719920F020026F634 /* lbpcascade_silverware.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lbpcascade_silverware.xml; sourceTree = "<group>"; };
 		7BBD12F6197F50100002A1EA /* hand_demo_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_one.jpg; sourceTree = "<group>"; };
 		7BBD12F7197F50100002A1EA /* hand_demo_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hand_demo_two.jpg; sourceTree = "<group>"; };
 		7BBD12FA197F5BD20002A1EA /* BackProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackProjectViewController.h; sourceTree = "<group>"; };
@@ -231,6 +252,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBCF59F1991D7B60026F634 /* CoreMedia.framework in Frameworks */,
+				7BBCF59B1991D75F0026F634 /* AssetsLibrary.framework in Frameworks */,
+				7BBCF5991991D72A0026F634 /* AVFoundation.framework in Frameworks */,
 				7BC47EF8196143C800EC945A /* CoreGraphics.framework in Frameworks */,
 				7BC47EFA196143C800EC945A /* UIKit.framework in Frameworks */,
 				7BC47F251961457300EC945A /* opencv2.framework in Frameworks */,
@@ -267,6 +291,17 @@
 				7BBB802A1985E57D00ABCA50 /* SVProgressHUD.m */,
 			);
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7BBCF5A319920F020026F634 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCF5A419920F020026F634 /* haarcascade_eye.xml */,
+				7BBCF5A519920F020026F634 /* lbpcascade_frontalface.xml */,
+				7BBCF5A619920F020026F634 /* lbpcascade_profileface.xml */,
+				7BBCF5A719920F020026F634 /* lbpcascade_silverware.xml */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 		7BC2A2A61964FB4900B93CC2 /* Common */ = {
@@ -323,6 +358,11 @@
 			children = (
 				7BC2A2C01965090800B93CC2 /* HighGUIViewController.h */,
 				7BC2A2C11965090800B93CC2 /* HighGUIViewController.m */,
+				7BBCF5951991D37E0026F634 /* CameraViewController.h */,
+				7BBCF5961991D37E0026F634 /* CameraViewController.mm */,
+				7BBCF5A0199209E40026F634 /* FaceDetectViewController.h */,
+				7BBCF5A1199209E40026F634 /* FaceDetectViewController.mm */,
+				7BBCF5A319920F020026F634 /* data */,
 			);
 			path = highgui;
 			sourceTree = "<group>";
@@ -417,6 +457,10 @@
 		7BC47EF4196143C800EC945A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BBCF59E1991D7B60026F634 /* CoreMedia.framework */,
+				7BBCF59C1991D7A70026F634 /* CoreVideo.framework */,
+				7BBCF59A1991D75F0026F634 /* AssetsLibrary.framework */,
+				7BBCF5981991D72A0026F634 /* AVFoundation.framework */,
 				7BC47F241961457300EC945A /* opencv2.framework */,
 				7BC47EF5196143C800EC945A /* Foundation.framework */,
 				7BC47EF7196143C800EC945A /* CoreGraphics.framework */,
@@ -570,6 +614,7 @@
 				7BD62CDA19762193000EA5B9 /* cow.jpg in Resources */,
 				7BBB802B1985E57D00ABCA50 /* SVProgressHUD.bundle in Resources */,
 				7BB611E1197E1B2F00262C83 /* hand_three.jpg in Resources */,
+				7BBCF5A819920F020026F634 /* haarcascade_eye.xml in Resources */,
 				7BD8F96A196A81A600EC3385 /* test.png in Resources */,
 				7BC04AAC196E70040021AD2F /* cat.jpg in Resources */,
 				7BC7C5921978CC8600F564EB /* big_dog.jpg in Resources */,
@@ -580,6 +625,7 @@
 				7BC2A2CD196547BA00B93CC2 /* common_bacArrow@2x.png in Resources */,
 				7BC47F08196143C800EC945A /* Images.xcassets in Resources */,
 				7BB6CFB81980EBFB00F2AAFA /* balloon_demo.jpg in Resources */,
+				7BBCF5AA19920F020026F634 /* lbpcascade_profileface.xml in Resources */,
 				7BBD12FF197F9EF20002A1EA /* person_one.jpg in Resources */,
 				7BB611E2197E1B2F00262C83 /* hand_two.jpg in Resources */,
 				7BBD132E197FAB030002A1EA /* lena_temp.jpg in Resources */,
@@ -588,7 +634,9 @@
 				7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */,
 				7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */,
 				7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */,
+				7BBCF5AB19920F020026F634 /* lbpcascade_silverware.xml in Resources */,
 				7BC7C5781978C25500F564EB /* circles.jpg in Resources */,
+				7BBCF5A919920F020026F634 /* lbpcascade_frontalface.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +669,7 @@
 				7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */,
 				7BB611DA197DFFF100262C83 /* CalcHistViewController.mm in Sources */,
 				7BF52191197775D100D433A9 /* HoughLinesViewController.mm in Sources */,
+				7BBCF5971991D37E0026F634 /* CameraViewController.mm in Sources */,
 				7BB609A219824373000C9DF6 /* PolygonTestViewController.mm in Sources */,
 				7BC2A2C51965244300B93CC2 /* BaseMatViewController.mm in Sources */,
 				7BB611E5197E1B6C00262C83 /* CompareHistViewController.mm in Sources */,
@@ -635,6 +684,7 @@
 				7BBD12FC197F5BD20002A1EA /* BackProjectViewController.mm in Sources */,
 				7BC2A2BF196508BF00B93CC2 /* ThreeDimsViewController.m in Sources */,
 				7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */,
+				7BBCF5A2199209E40026F634 /* FaceDetectViewController.mm in Sources */,
 				7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */,
 				7BB6CFB61980C12100F2AAFA /* ConvexHullViewController.mm in Sources */,
 				7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */,
