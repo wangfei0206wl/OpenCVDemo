@@ -116,6 +116,7 @@
     _videoCamera.defaultAVCaptureVideoOrientation = AVCaptureVideoOrientationPortrait;
     _videoCamera.defaultAVCaptureSessionPreset = AVCaptureSessionPreset352x288;
     _videoCamera.defaultFPS = 15;
+    _videoCamera.grayscaleMode = YES;
 }
 
 - (void)viewDidLoad
@@ -128,6 +129,7 @@
     _bDetectImage = YES;
     _faceDetector = [[FaceDetector alloc] init];
     _srcImage = [OpenCVUtility UIImageToMat:[UIImage imageNamed:@"lena.jpg"]];
+    cvtColor(_srcImage, _srcImage, CV_BGR2GRAY);
     [self loadPic];
 }
 
@@ -162,6 +164,13 @@
 - (void)processImage:(cv::Mat&)image {
     // 这里可以对图像进行处理
     [_faceDetector detectFacesInMat:&image];
+}
+
+- (void)onClickBack {
+    if (_videoCamera.running) {
+        [_videoCamera stop];
+    }
+    [super onClickBack];
 }
 
 @end
