@@ -10,6 +10,7 @@
 #import "PublicDefines.h"
 #import "CameraViewController.h"
 #import "FaceDetectViewController.h"
+#import "VideoCmpViewController.h"
 
 @interface HighGUIViewController () {
     NSArray *_arrMenus;
@@ -29,7 +30,7 @@
 }
 
 - (void)initDatas {
-    _arrMenus = [NSArray arrayWithObjects:@"Camera的使用", @"人脸识别", nil];
+    _arrMenus = [NSArray arrayWithObjects:@"Camera的使用", @"人脸识别", @"视频相似度比较", nil];
 }
 
 - (void)createViews {
@@ -71,6 +72,12 @@
         case 1:
         {
             FaceDetectViewController *controller = [[FaceDetectViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 2:
+        {
+            VideoCmpViewController *controller = [[VideoCmpViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
