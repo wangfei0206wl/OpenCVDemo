@@ -10,6 +10,7 @@
 		7BACD9AA199C9A8000142349 /* Megamind.avi in Resources */ = {isa = PBXBuildFile; fileRef = 7BACD9A8199C9A8000142349 /* Megamind.avi */; };
 		7BACD9AB199C9A8000142349 /* Megamind_bugy.avi in Resources */ = {isa = PBXBuildFile; fileRef = 7BACD9A9199C9A8000142349 /* Megamind_bugy.avi */; };
 		7BACD9AE199C9AF100142349 /* VideoCmpViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BACD9AD199C9AF100142349 /* VideoCmpViewController.mm */; };
+		7BB5F85B19B55C070082ED63 /* VideoCreateViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5F85A19B55C070082ED63 /* VideoCreateViewController.mm */; };
 		7BB6099C1981F90F000C9DF6 /* AreaRectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */; };
 		7BB6099F198205E5000C9DF6 /* ContoursAreaViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6099E198205E5000C9DF6 /* ContoursAreaViewController.mm */; };
 		7BB609A219824373000C9DF6 /* PolygonTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BB609A119824373000C9DF6 /* PolygonTestViewController.mm */; };
@@ -90,6 +91,7 @@
 		7BD8F96D196A81EA00EC3385 /* AddWeightViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96C196A81EA00EC3385 /* AddWeightViewController.mm */; };
 		7BD8F970196A8EB300EC3385 /* ContrastViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */; };
 		7BD8F974196AAD0800EC3385 /* BaseDrawViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8F972196A9F7600EC3385 /* BaseDrawViewController.mm */; };
+		7BD92BF519B5656F0077C9E5 /* Megamind.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD92BF419B5656F0077C9E5 /* Megamind.mp4 */; };
 		7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA40971974C71B0000E5FB /* Filter2DViewController.mm */; };
 		7BDA409B1974D0DE0000E5FB /* CopyBorderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA409A1974D0DE0000E5FB /* CopyBorderViewController.mm */; };
 		7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BDABB861973ACA300C7B2BB /* dog.jpg */; };
@@ -115,6 +117,8 @@
 		7BACD9A9199C9A8000142349 /* Megamind_bugy.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = Megamind_bugy.avi; sourceTree = "<group>"; };
 		7BACD9AC199C9AF100142349 /* VideoCmpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCmpViewController.h; sourceTree = "<group>"; };
 		7BACD9AD199C9AF100142349 /* VideoCmpViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCmpViewController.mm; sourceTree = "<group>"; };
+		7BB5F85919B55C070082ED63 /* VideoCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCreateViewController.h; sourceTree = "<group>"; };
+		7BB5F85A19B55C070082ED63 /* VideoCreateViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoCreateViewController.mm; sourceTree = "<group>"; };
 		7BB6099A1981F90F000C9DF6 /* AreaRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaRectViewController.h; sourceTree = "<group>"; };
 		7BB6099B1981F90F000C9DF6 /* AreaRectViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AreaRectViewController.mm; sourceTree = "<group>"; };
 		7BB6099D198205E5000C9DF6 /* ContoursAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContoursAreaViewController.h; sourceTree = "<group>"; };
@@ -238,6 +242,7 @@
 		7BD8F96F196A8EB300EC3385 /* ContrastViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ContrastViewController.mm; sourceTree = "<group>"; };
 		7BD8F971196A9F7600EC3385 /* BaseDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDrawViewController.h; sourceTree = "<group>"; };
 		7BD8F972196A9F7600EC3385 /* BaseDrawViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseDrawViewController.mm; sourceTree = "<group>"; };
+		7BD92BF419B5656F0077C9E5 /* Megamind.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Megamind.mp4; sourceTree = "<group>"; };
 		7BDA40961974C71B0000E5FB /* Filter2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter2DViewController.h; sourceTree = "<group>"; };
 		7BDA40971974C71B0000E5FB /* Filter2DViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Filter2DViewController.mm; sourceTree = "<group>"; };
 		7BDA40991974D0DE0000E5FB /* CopyBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyBorderViewController.h; sourceTree = "<group>"; };
@@ -285,6 +290,7 @@
 		7BACD9A7199C9A8000142349 /* video */ = {
 			isa = PBXGroup;
 			children = (
+				7BD92BF419B5656F0077C9E5 /* Megamind.mp4 */,
 				7BACD9A8199C9A8000142349 /* Megamind.avi */,
 				7BACD9A9199C9A8000142349 /* Megamind_bugy.avi */,
 			);
@@ -380,6 +386,8 @@
 				7BBCF5A1199209E40026F634 /* FaceDetectViewController.mm */,
 				7BACD9AC199C9AF100142349 /* VideoCmpViewController.h */,
 				7BACD9AD199C9AF100142349 /* VideoCmpViewController.mm */,
+				7BB5F85919B55C070082ED63 /* VideoCreateViewController.h */,
+				7BB5F85A19B55C070082ED63 /* VideoCreateViewController.mm */,
 				7BBCF5A319920F020026F634 /* data */,
 			);
 			path = highgui;
@@ -654,6 +662,7 @@
 				7BDABB871973ACA300C7B2BB /* dog.jpg in Resources */,
 				7BBD12F9197F50100002A1EA /* hand_demo_two.jpg in Resources */,
 				7BC516BA196BD87800CC3F00 /* result_normal.jpg in Resources */,
+				7BD92BF519B5656F0077C9E5 /* Megamind.mp4 in Resources */,
 				7BBD12F8197F50100002A1EA /* hand_demo_one.jpg in Resources */,
 				7BBCF5AB19920F020026F634 /* lbpcascade_silverware.xml in Resources */,
 				7BC7C5781978C25500F564EB /* circles.jpg in Resources */,
@@ -707,6 +716,7 @@
 				7BBD1303197F9F190002A1EA /* MatchTempViewController.mm in Sources */,
 				7BBCF5A2199209E40026F634 /* FaceDetectViewController.mm in Sources */,
 				7BDA40981974C71B0000E5FB /* Filter2DViewController.mm in Sources */,
+				7BB5F85B19B55C070082ED63 /* VideoCreateViewController.mm in Sources */,
 				7BB6CFB61980C12100F2AAFA /* ConvexHullViewController.mm in Sources */,
 				7BACD9AE199C9AF100142349 /* VideoCmpViewController.mm in Sources */,
 				7BC516BD196BD8A500CC3F00 /* DFTViewController.mm in Sources */,
